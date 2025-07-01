@@ -1,0 +1,122 @@
+/* ===== Background & Global Font ===== */
+body {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Container Box (Login, Register, dll) ===== */
+.container-box {
+  max-width: 500px;
+  margin: 80px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Judul ===== */
+h2, h3, h4, h5 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ===== Tombol ===== */
+.btn {
+  font-weight: bold;
+}
+
+/* ===== Link Login / Register ===== */
+.text-register,
+.text-login {
+  text-align: center;
+  margin-top: 15px;
+}
+.text-register a,
+.text-login a {
+  color: #007bff;
+  text-decoration: none;
+}
+.text-register a:hover,
+.text-login a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Input dengan Icon Mata ===== */
+.input-group-text {
+  background: #fff;
+  border-left: none;
+  cursor: pointer;
+}
+.form-control {
+  border-right: none;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+.user-info {
+  color: white;
+  font-weight: bold;
+}
+
+/* ===== Menu Dashboard ===== */
+.menu-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.menu-box:hover {
+  transform: scale(1.05);
+}
+.menu-box i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0072ff;
+}
+.menu-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* ===== Tabel Barang ===== */
+.table-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.table-responsive {
+  overflow-x: auto;
+}
+.table th, .table td {
+  vertical-align: middle !important;
+}
+
+/* ===== Warna Baris Expired ===== */
+.expired {
+  background-color: #ffd6d6 !important;
+}
+.near-expired {
+  background-color: #fffacc !important;
+}
+tr.expired td,
+tr.near-expired td {
+  background-color: inherit !important;
+}
+
+/* ===== Alert Warning (Notifikasi) ===== */
+.alert-warning {
+  border-left: 6px solid #ffc107;
+  background-color: #fff8e1;
+  color: #664d03;
+  font-weight: 500;
+}
